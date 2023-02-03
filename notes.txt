@@ -1,0 +1,4 @@
+# ## using $ conda create -n py39 python=3.9 twine
+# ##       $ conda active py39
+
+### gosh I really hope once I upload this to PyPI that it doesn't work

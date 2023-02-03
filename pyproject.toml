@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "python-wheel"
+version = "0.0.1"
+authors = [
+  { name="Kale Franz", email="eetygr@gmail.com" },
+]
+description = "A punk test. Please don't work."
+readme = "notes.txt"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kalefranz/python-wheel"
+# ## gosh I hope this really doesn't work
+# ## I haven't made the github repo yet, but I will if there's a need
