@@ -5,12 +5,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-wheel"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Kale Franz", email="eetygr@gmail.com" },
 ]
-description = "A punk test. Please don't work."
-readme = "notes.txt"
+description = """\
+This is a sham PyPI package creation. In fact, it should be considered malicious. It was a naive
+test that I thought would have never succeeded. Although, in fact, it did succeed.
+For PyPA members: Please take note of what I just out-of-curiosity did here and consider guarding
+against like attacks. Also delete this package / dist-name.
+"""
+readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
